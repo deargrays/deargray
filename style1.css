@@ -19,36 +19,12 @@ body {
 
 .card1 {
   border-radius: 10px;
-  border-color:#193259;
-  border-style:none; 
   padding:10px;
   margin:10px 5px 5px 10px;
   background-color:#AFAFD4;
 }
-.card2 {
-  border-radius:10px;
-  border-color:#193259;
-  border-style:none;
-  padding:10px;
-  background-color:#AFAFD4;
-  margin:10px
-}
-.card3 {
-  border-radius: 10px;
-  border-color:#193259;
-  border-style:none; 
-  padding:10px;
-  margin:10px;
-  background-color:#AFAFD4;
-  width:auto;
-  text-align:left;
-}
 
-.card4 {
- padding:12px; 
-  margin:2px, 10px, 2px, 10px;
-  background-color:rgba(0, 0, 0, 0);
-}
+
 /* images and videos max out at full width */
 img,
 video {
@@ -110,52 +86,40 @@ a:active {
 }
 
 ::-webkit-scrollbar {
-  background-color:#bebeeb;
+  background-color:#8378c4;
     width: 12px;
 }
  
 ::-webkit-scrollbar-track {
-    background-color:#bebeeb;
+    background-color:#8378c4;
     border-radius: 10px;
 }
  
 ::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    background-color:#b7aefc;
+    background-color:#584F8B;
 }
 
 /* card 1 scrollbar */
 .card1::-webkit-scrollbar-track {
-    background-color: #b7aefc;
+    background-color: #AFAFD4;
 }
 .card1::-webkit-scrollbar-thumb {
-  background-color:#39588a;
+  background-color:#8378c4;
 }
 .card1::-webkit-scrollbar {
-  background-color:#b7aefc;
+  background-color:#AFAFD4;;
     width: 12px;
 }
 /* c1 scrollbar*/
 .c1::-webkit-scrollbar-track {
-    background-color: #aed5fc;
+     background-color: #AFAFD4;
 }
 .c1::-webkit-scrollbar-thumb {
-  background-color:#729dd4;
+  background-color:#8378c4;
 }
 .c1::-webkit-scrollbar {
-  background-color:#aed5fc;
-  width: 12px;}
-
-
-/* card 2 scrollbar */
-.card2::-webkit-scrollbar-track {
-    background-color: #84a4d2;
-}
-.card2::-webkit-scrollbar-thumb {
-  background-color:#39588a;
-}
-.card2::-webkit-scrollbar {
-  background-color:#84a4d2;
+  background-color:#AFAFD4;
     width: 12px;
 }
 

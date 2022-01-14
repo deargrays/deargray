@@ -163,10 +163,11 @@ a:active {
 .sidenav a:hover {
   color: #7683B9;
 }
-.license a{
+.license{
   position:fixed; 
   bottom:0;
   margin-left:5px;
+  margin-bottom:5px;
   align-items:center;
 }
 

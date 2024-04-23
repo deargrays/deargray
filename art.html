@@ -48,46 +48,26 @@
     <!-- /end header n links-->
     
     <!-- Page content -->
-    <div class="main" style="padding: 10px">
-          
+    <div class="row">
+  <div class="column">
+    <img src="/assets/waterfall.png">
+    <img src="/assets/mushroom cat.png">
+    <img src="/assets/forest cat.png">
+  </div>
+  <div class="column">
+    <img src="/assets/2-block lino print.png">
+    <img src="/assets/cat on log linoprint copy.png">
+    <img src="/assets/mushroom painting.png">
+  </div>
+  <div class="column">
+    <img src="/assets/19th april dog.png">
+    <img src="/assets/mossy cat.png">
+    <img src="/assets/starry cat linoprint.png">
+  </div>
+</div>
 
-        <img
-              src="/assets/mushroom cat.png"
-              class="galleryimg"
-          />
 
-      
-   <img
-              src="/assets/forest cat.png"
-              class="galleryimg"
-          />
-
-      
-        <img
-              src="/assets/waterfall.png"
-              class="galleryimg"
-          />
-     <img
-              src="/assets/mushroom cats.png"
-              class="galleryimg"
-          />
-       
-            <img
-              src="/assets/house lower quality.png"
-              class="galleryimg"
-          />
-      
-      <img
-              src="/assets/trans pride.png"
-              class="galleryimg"
-          />
-      
-     
-      
-            
-        
-        
-      </div>
+    
   </body>
    <footer>
     <div class="footer" style="font-size:14px;">
@@ -99,6 +79,41 @@
 </html>
 
 <style>
+
+    .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 33%;
+  max-width: 33%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
   * {
     box-sizing: border-box;
   }

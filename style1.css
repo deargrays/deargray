@@ -17,7 +17,7 @@ body {
   margin: 0;
   font-family: Verdana, sans-serif;
   line-height: 1.5;
-  background-color: #f6f6f6;
+  background-color: #E1E2D9;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -26,7 +26,7 @@ body {
 .card1 {
   border-radius: 10px;
   margin: 10px 5px 5px 10px;
-  background-color: #bfcce7;
+  background-color: #90AB8A;
 }
 
 .card2 {
@@ -44,7 +44,9 @@ body {
   border-radius: 10px;
   padding: 10px;
   margin: 10px 5px 5px 10px;
-  background-color: #bfcce7;
+  background-color: #C2D2BF;
+  font-family: Verdana, sans-serif;
+  color: #456D61;
 }
 /* images and videos max out at full width */
 img,
@@ -55,81 +57,81 @@ video {
 
 p {
   font-family: Verdana, sans-serif;
-  color: #0c1744;
+  color: #2A6356;
 }
 h1 {
   font-family: Verdana, sans-serif;
-  color: #0c1744;
+  color: #2A6356;
 }
 h2 {
   font-family: Verdana, sans-serif;
-  color: #0c1744;
+  color: #2A6356;
 }
 h3 {
   font-family: Verdana, sans-serif;
-  color: #0c1744;
+  color: #2A6356;
 }
 h4 {
   font-family: Verdana, sans-serif;
-  color: #0c1744;
+  color: #2A6356;
 }
 h5 {
   font-family: Verdana, sans-serif;
-  color: #0c1744;
+  color: #2A6356;
 }
 h6 {
   font-family: Verdana, sans-serif;
-  color: #0c1744;
+  color: #2A6356;
 }
 
 hr {
-  border: #4f4a85 1px solid;
+  border: #456D61 1px solid;
 }
 
 /* unvisited link */
 a:link {
-  color: #1d126a;
+  color: #2A6356;
 }
 
 /* visited link */
 a:visited {
-  color: #341275;
+  color: #0F4A48;
 }
 
 /* mouse over link */
 a:hover {
-  color: #1c0052;
+  color: #0F4A48;
 }
 
 /* selected link */
 a:active {
-  color: #1c0052;
+  color: #0F4A48;
 }
 
 ::-webkit-scrollbar {
-  background-color: #bebeeb;
+  background-color: #C2D2BF;
   width: 12px;
 }
 
 ::-webkit-scrollbar-track {
-  background-color: #bebeeb;
+  background-color: #C2D2BF;
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
   border-radius: 10px;
-  background-color: #bfcce7;
+  background-color: #9DB997;
 }
 
 /* card 1 scrollbar */
 .card1::-webkit-scrollbar-track {
-  background-color: #bfcce7;
+  background-color: #C2D2BF;
 }
 .card1::-webkit-scrollbar-thumb {
-  background-color: #8378c4;
+  background-color: #9DB997;
 }
 .card1::-webkit-scrollbar {
-  background-color: #bfcce7;
+  background-color: #C2D2BF;
   width: 12px;
 }
 
@@ -233,7 +235,7 @@ div.fixed {
   bottom: 0;
   right: 0;
   padding:5px;
-  border:solid #5073af;
+  border:solid #90AB8A;
 }
 
 
@@ -250,10 +252,10 @@ div.sticky {
   border-radius: 8px;
   margin: 10px 5px 5px 10px;
   padding:5px;
-  background-color: #bfcce7;
+  background-color: #9DB997;
 }
 .button1:hover{
-  background-color: #9facdf;
+  background-color: #90AB8A;
 }
 
 .button2 a {
@@ -266,10 +268,10 @@ div.sticky {
   border-radius: 8px;
   margin: 10px 5px 5px 10px;
   padding:5px;
-  background-color: #939fd1;
+  background-color: #9DB997;
 }
 .button3:hover{
-  background-color: #7584c2;
+  background-color: #90AB8A;
 }
 
 .abtpara {
@@ -313,9 +315,9 @@ div.sticky {
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 120px;
-  background-color: #bfcce7;
+  background-color: #C2D2BF;
   opacity:50%;
-  color: #0c1744;
+  color: #456D61;
   text-align: center;
   padding: 5px 0;
   border-radius: 6px;
